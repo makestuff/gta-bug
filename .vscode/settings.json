@@ -1,0 +1,7 @@
+{
+    "gtest-adapter.debugConfig": [
+        "mul-tests",
+        "div-tests"
+    ],
+    "gtest-adapter.supportLocation": true
+}
