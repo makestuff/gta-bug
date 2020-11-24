@@ -1,7 +1,15 @@
 gta-bug
 =======
 
-Hit ctrl-shift-b, choose "cmake". Hit ctrl-shift-b, choose "build". Open "Test Explorer" pane, choose "Run All".
+Clone the repo, build it:
+
+    cd $HOME
+    git clone --recursive https://github.com/makestuff/gta-bug.git
+    cd gta-bug
+    ./build.sh
+    code .
+
+In VSCode, open "Test Explorer" pane, choose "Run All".
 
 Now navigate to mul-tests->Multiply and double-click "verifySimpleMultiply". Notice that the test **does** have a "Go to Tree | Run | Debug" annotation:
 
